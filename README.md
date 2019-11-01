@@ -1,2 +1,4 @@
 # Java-Animation-Graduation
 Java Animation Graduation
+
+This project is a 2D animation where there are professors and students moving around the campus. Professors occasionally create new assignments and scatter them around. The students then have to collect those assignments. Whenever a student collects 100 points in total or more he or she will be ready to graduate. So the student will go to the Graduation Ceremony point and stay there and wait for his/her peers. After all the students are gathered and ready to graduate, invited speakers will come to the Graduation ceremony. This project is built using the Abstract Factory and State Design Patterns. During the animation students and professors have different states they can take such as rest state (they just stay in one place), gotoXY state (they choose a random point and move towards that point), ZigZag (movement in ZigZag trajectory bouncing off the edges), and Closest (moving towards the closest assignment).
